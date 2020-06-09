@@ -11,7 +11,7 @@ pipeline {
         }
         stage('creating the resource Group') {
             steps {
-                sh 'az group create -n sqlTerraform-RG-SD-SD -l eastus'
+                sh 'az group create -n sqlTerraform-RG-SD -l eastus'
             }
         }
         stage('creating the storage account') {
